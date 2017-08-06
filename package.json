@@ -1,0 +1,13 @@
+{
+  "name": "my-accountant-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jay Barra",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "webpack": "^3.4.1"
+  }
+}
