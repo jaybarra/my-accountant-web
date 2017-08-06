@@ -1,9 +1,13 @@
-function component() {
-    var element = document.createElement("div");
+import React, {Component} from "react"
+import ReactDOM from "react-dom";
 
-    element.innerHTML = _.join(["Hello", "Webpack"], " ");
-
-    return element;
+class Layout extends Component {
+    render() {
+        return (
+            <h1>It works!!</h1>
+        );
+    }
 }
 
-document.body.appendChild(component());
+const app = document.getElementById("appRoot");
+ReactDOM.render(<Layout/>, app);

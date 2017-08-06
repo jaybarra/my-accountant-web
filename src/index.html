@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <title>My Accountant</title>
 
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.min.css">
 
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- TODO have webpack take care of cdn stuff -->
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.min.js"></script>
-    <script src="node_modules/lodash/lodash.min.js"></script>
 </head>
 <body>
 
-<script src="./src/index.js"></script>
+<div id="appRoot"></div>
+
+<script src="vendor.bundle.js"></script>
+<script src="app.bundle.js"></script>
 </body>
 </html>
