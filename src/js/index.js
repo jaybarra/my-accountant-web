@@ -10,12 +10,8 @@ import {Route} from "react-router"
 import {routerMiddleware, routerReducer} from "react-router-redux";
 import {BrowserRouter as Router} from "react-router-dom"
 
-import Layout from "./components/layout/Layout";
-
 import reducers from "./reducers";
-import Home from "./components/Home";
-import Account from "./components/Account";
-import Settings from "./components/Settings";
+import App from "./components/App"
 
 const history = createHistory();
 
@@ -34,7 +30,7 @@ const root = document.getElementById("appRoot");
 ReactDOM.render(
     <Provider store={store}>
         <Router history={history}>
-            <Layout/>
+            <App/>
         </Router>
     </Provider>
     , root);

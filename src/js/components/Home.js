@@ -55,7 +55,7 @@ export default class Home extends React.Component {
         return (
             <div>
                 <h1>Home</h1>
-                <canvas id="myChart" ref="myChart" width="400" height="300"></canvas>
+                <canvas id="myChart" ref="myChart" width="400" height="200"></canvas>
             </div>
 
         );
