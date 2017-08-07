@@ -36,8 +36,8 @@ export default class Layout extends React.Component {
                     <p>This is a basic fixed menu template using fixed size containers.</p>
                     <p>A text container is used for the main container, which is useful for single column layouts</p>
 
-                    <Link to="/account">Account</Link>
-                    <Link to="/settings">Settings</Link>
+                    <Link to="/account" class="ui basic button primary">Account</Link>
+                    <Link to="/settings" class="ui basic button secondary">Settings</Link>
 
                     <Route exact path="/" component={Home}/>
                     <Route path="/account" component={Account}/>

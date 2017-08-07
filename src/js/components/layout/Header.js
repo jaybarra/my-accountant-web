@@ -9,7 +9,7 @@ export default class Header extends React.Component {
                     <Link to="/" className="header item">
                         My Accountant
                     </Link>
-                    <a href="#" className="item">Home</a>
+                    <Link to="/" className="item">Home</Link>
                     <div className="ui simple dropdown item">
                         Dropdown <i className="dropdown icon"/>
                         <div className="menu">
